@@ -2,7 +2,7 @@
 The goal of this project is to implement various IR models, evaluate the IR system and improve the search result based on your understanding of the models, the implementation and the evaluation.
 The dataset given is twitter data in three languages - English, German and Russian, 15 sample queries and the corresponding relevance judgements. You will index the given twitter data using Solr, implement Vector Space Model and BM25 based on Solr, and evaluate the two sets of results using Trec_Eval program. Based on the evaluation result, you are asked to programatically improve the performance in terms of the measure Mean Average Precision (MAP).
 Following is the structure of the project. The project uses Solr to produce inverted index and further scoring the documents to build the entire architecture of the search engine and helped in evaluating the performance.
-![alt text](https://github.com/KNITPhoenix/Evaluating-IR-models-to-optimize-performance/blob/main/architecture.png?raw=true)
+![alt text](https://github.com/KNITPhoenix/Evaluating-IR-models-to-optimize-performance/blob/main/architecture.PNG?raw=true)
 
 The data given is Twitter data saved in json format, train.json. Three languages are included
 - English (text_en), German (text_de) and Russian (text_ru).
